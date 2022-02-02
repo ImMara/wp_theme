@@ -1,5 +1,6 @@
 <!--ref to header.php-->
 <?php get_header() ?>
-    <h1>Bonjour tous le monde</h1>
+<!--    wp title ll get the title -->
+    <h1>Bonjour tout le monde : <?php wp_title(); ?></h1>
 <!--ref to footer.php-->
 <?php get_footer() ?>

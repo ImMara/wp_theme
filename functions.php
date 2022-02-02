@@ -19,9 +19,21 @@ function montheme_register_assets(){
     wp_enqueue_style('bootstrap');
 }
 
+function montheme_title_separator(){
+    return '|';
+}
+
+/*the filter r used to change var*/
+function montheme_document_title_parts($title){
+//    var_dump($title); die();
+    unset($title['tagline']);
+    return $title;
+}
+
 
 /*hook after a specific action ll setup the function ( ex : here waits all setup from wp then add the theme support )*/
 add_action('after_setup_theme','App\montheme_support');
 add_action('wp_enqueue_scripts','App\montheme_register_assets');
-
+add_filter('document_title_separator','App\montheme_title_separator');
+add_filter('document_title_parts','App\montheme_document_title_parts');
 
