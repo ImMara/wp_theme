@@ -9,4 +9,5 @@
 <!--  wp_head adds dynamics features of wordpress and functions  -->
 </head>
 <body>
+    <div class="container">
 
