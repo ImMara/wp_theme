@@ -23,12 +23,11 @@
                             'menu_class' => 'navbar-nav mr-auto'
                     ])
                 ?>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-dark" type="submit">Search</button>
-                </form>
+
             </div>
+            <?= get_search_form() ?>
         </div>
     </nav>
+
     <div class="container">
 

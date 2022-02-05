@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9a46ef-3f8b-4d14-9e35-712faf28cf01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/searchform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <workItem from="1643870049673" duration="3289000" />
       <workItem from="1643903475270" duration="31000" />
       <workItem from="1643909769511" duration="2327000" />
-      <workItem from="1644044339372" duration="6324000" />
+      <workItem from="1644044339372" duration="8579000" />
     </task>
     <servers />
   </component>
