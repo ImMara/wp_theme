@@ -46,6 +46,32 @@ function montheme_menu_link_class($attrs)
     return $attrs;
 }
 
+function montheme_pagination()
+{
+    $pages = paginate_links(['type' => 'array']);
+
+    if( $pages === null ){
+        return;
+    }
+
+    echo '<nav aria-label="Paginations" class="my-4">';
+    echo '<ul class="pagination">';
+
+    foreach($pages as $page )
+    {
+        $active = strpos($page,'current') !== false;
+        $class= 'page-item';
+        if($active){
+            $class .=' active';
+        }
+        echo '<li class=" ' .$class. '">';
+        echo str_replace('page-numbers','page-link',$page);
+        echo '</li>';
+    }
+    echo '</ul>';
+    echo '</nav>';
+}
+
 
 /*hook after a specific action ll setup the function ( ex : here waits all setup from wp then add the theme support )*/
 add_action('after_setup_theme','App\montheme_support');

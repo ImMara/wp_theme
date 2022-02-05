@@ -22,9 +22,15 @@
                     </div>
                 </div>
             </div>
-        <?php endwhile; else: ?>
+        <?php endwhile; ?>
+        </div>
+        <nav aria-label="Page navigation example">
+            <?php \App\montheme_pagination() ?>
+        </nav>
+
+        <?php else: ?>
             <p>Aucun article :(</p>
         <?php endif; ?>
-    </div>
+
 <!--ref to footer.php-->
 <?php get_footer() ?>
