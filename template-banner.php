@@ -1,9 +1,9 @@
 <?php
     /**
-     * Template Name : Page with banner
-     * Template Post Type : page,post
+     * Template Name: Page with banner
+     * Template Post Type: page, post
      */
-    ?>
+?>
 
 <!--ref to header.php-->
 <?php get_header() ?>

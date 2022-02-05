@@ -6,7 +6,7 @@
         <?php if (have_posts()): while (have_posts()): the_post(); ?>
             <div class="col-sm-4">
                 <div class="card" style="width: 18rem;">
-                    <?php the_post_thumbnail('medium',['class' => 'card-img-top','alt'=> '','style' => 'height:auto;']) ?>
+                    <?php the_post_thumbnail('card-header',['class' => 'card-img-top','alt'=> '','style' => 'height:auto;']) ?>
                     <div class="card-body">
                         <h5 class="card-title">
                             <?php the_title() ?>
