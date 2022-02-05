@@ -8,6 +8,9 @@ namespace App;
 function montheme_support (){
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
+    add_theme_support('menus');
+    register_nav_menu('header','En tete du menu');
+    register_nav_menu('footer','Pied de page');
 }
 
  /*create function for assets*/
@@ -31,10 +34,24 @@ function montheme_document_title_parts($title){
     return $title;
 }
 
+function montheme_menu_class($classes)
+{
+    $classes[] = 'nav-item';
+    return $classes;
+}
+
+function montheme_menu_link_class($attrs)
+{
+    $attrs['class'] = 'nav-link';
+    return $attrs;
+}
+
 
 /*hook after a specific action ll setup the function ( ex : here waits all setup from wp then add the theme support )*/
 add_action('after_setup_theme','App\montheme_support');
 add_action('wp_enqueue_scripts','App\montheme_register_assets');
 add_filter('document_title_separator','App\montheme_title_separator');
 add_filter('document_title_parts','App\montheme_document_title_parts');
+add_filter('nav_menu_css_class','App\montheme_menu_class');
+add_filter('nav_menu_link_attributes','App\montheme_menu_link_class');
 
