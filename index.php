@@ -25,7 +25,7 @@
         <?php endwhile; ?>
         </div>
         <nav aria-label="Page navigation example">
-            <?php \App\montheme_pagination() ?>
+            <?php montheme_pagination() ?>
         </nav>
 
         <?php else: ?>
