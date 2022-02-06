@@ -1,11 +1,11 @@
 <!--ref to header.php-->
 <?php get_header() ?>
-<!--    wp title ll get the title -->
-<!--    <h1>Bonjour tout le monde : --><?php //wp_title(); ?><!--</h1>-->
 
-<?php //wp_list_categories(['taxonomy'=> 'sport','title_li' => '']); ?>
+<h1><?= esc_html(get_queried_object()->name) ?></h1>
+<p><?= esc_html(get_queried_object()->description) ?></p>
+
 <?php $sports = get_terms(['taxonomy' => 'sport']); ?>
-
+<?php if (is_array($sports)) : ?>
 <ul class="nav nav-pills mt-4">
     <?php foreach($sports as $sport): ?>
     <li class="nav-item">
@@ -15,6 +15,7 @@
     </li>
     <?php endforeach ; ?>
 </ul>
+<?php endif; ?>
 
 <div class="row">
         <?php if (have_posts()): while (have_posts()): the_post(); ?>

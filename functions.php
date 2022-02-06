@@ -72,10 +72,22 @@ function montheme_pagination()
     echo '</nav>';
 }
 
-
+function montheme_init(){
+    register_taxonomy('sport','post',[
+        'labels'=>[
+            'name' => 'Sport',
+        ],
+        'show_in_rest' => true,
+        'hierarchical' => true,
+        'show_admin_column' => true,
+        // needs to resave permalink when changed
+    ]);
+}
 
 
 /*hook after a specific action ll setup the function ( ex : here waits all setup from wp then add the theme support )*/
+add_action('init','montheme_init');
+
 add_action('after_setup_theme','montheme_support');
 add_action('wp_enqueue_scripts','montheme_register_assets');
 add_filter('document_title_separator','montheme_title_separator');
