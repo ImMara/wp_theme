@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9a46ef-3f8b-4d14-9e35-712faf28cf01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/options/agence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/agence.php" beforeDir="false" afterPath="$PROJECT_DIR$/options/agence.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/options/agence.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="24XTflryYqh3omXI6RmOHINlQjj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +64,7 @@
       <workItem from="1643909769511" duration="2327000" />
       <workItem from="1644044339372" duration="19578000" />
       <workItem from="1644146904321" duration="2094000" />
-      <workItem from="1644152187719" duration="20481000" />
+      <workItem from="1644152187719" duration="22305000" />
     </task>
     <servers />
   </component>
