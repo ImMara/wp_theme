@@ -1,1 +1,1 @@
-jQuery('.montheme_datepicker').flatpickr();
+document.querySelector('.montheme_datepicker').flatpickr();

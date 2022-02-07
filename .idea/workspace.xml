@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9a46ef-3f8b-4d14-9e35-712faf28cf01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/agence.php" beforeDir="false" afterPath="$PROJECT_DIR$/options/agence.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +38,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.22" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -65,6 +68,7 @@
       <workItem from="1644044339372" duration="19578000" />
       <workItem from="1644146904321" duration="2094000" />
       <workItem from="1644152187719" duration="22305000" />
+      <workItem from="1644230491176" duration="4471000" />
     </task>
     <servers />
   </component>
