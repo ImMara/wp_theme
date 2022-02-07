@@ -94,7 +94,6 @@ function montheme_init(){
     // needs to resave permalinks
 }
 
-
 /*hook after a specific action ll setup the function ( ex : here waits all setup from wp then add the theme support )*/
 add_action('init','montheme_init');
 
@@ -106,4 +105,7 @@ add_filter('nav_menu_css_class','montheme_menu_class');
 add_filter('nav_menu_link_attributes','montheme_menu_link_class');
 
 require_once('metaboxes/sponso.php');
+require_once('options/agence.php');
+
 SponsoMetaBox::register();
+AgenceMenuPage::register();
